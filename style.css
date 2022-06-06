@@ -34,6 +34,9 @@ body {
   animation-duration: 6s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  font-family: "Arial", "Times New Roman";
+  letter-spacing: 2px;
+  font-size: 15px;
 }
 .outer-card .inner-card {
   margin: auto;
@@ -60,7 +63,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  width: 100%;
   animation: movingClock 5s infinite;
   animation-direction: alternate-reverse;
 }
@@ -79,6 +81,18 @@ body {
 }
 .outer-card .card-body .card-body-elements .card-img-top {
   width: 80%;
+}
+.outer-card .card-body .text-center {
+  padding: 1rem;
+  margin-top: -6%;
+}
+.outer-card .card-body .text-center button {
+  width: 100%;
+  background-color: #0C7FAC;
+  border: 1px solid #0C7FAC;
+  color: #ffffff;
+  height: 50px;
+  font-weight: 500;
 }
 
 #left-border {

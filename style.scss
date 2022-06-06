@@ -54,6 +54,9 @@ body {
       animation-duration: 6s;
       animation-timing-function: linear;
       animation-iteration-count: infinite;
+      font-family: 'Arial', "Times New Roman";
+      letter-spacing: 2px;
+      font-size: 15px;
     }
   }
 
@@ -80,20 +83,20 @@ body {
       @include time(23%, 50%);
       transform: translate(-50%, -50%);
       text-align: center;
-      width: 100%;
+      //width: 100%;
       animation: movingClock 5s infinite;
       animation-direction: alternate-reverse;
     }
 
     #clock, #date {
-      text-shadow: 4px 4px 4px rgba(0,0,0, 0.5)
+      text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5)
     }
   }
 
   .card-body {
     padding: 0;
 
-/* Images */
+    /* Images */
 
     .card-body-elements {
       display: flex;
@@ -104,15 +107,28 @@ body {
       .card-img-top {
         width: 80%;
       }
+    }
+    .text-center {
+      padding: 1rem;
+      margin-top: -6%;
 
+      button {
+        width: 100%;
+        background-color: #0C7FAC;
+        border: 1px solid #0C7FAC;
+        color: $white-color;
+        height: 50px;
+        font-weight: 500;
+      }
     }
   }
 }
 
-#left-border{
+#left-border {
   @include aside-borders;
   border-bottom-left-radius: 10px;
 }
+
 #right-border {
   @include aside-borders;
   border-bottom-right-radius: 10px;
