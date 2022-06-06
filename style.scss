@@ -17,22 +17,30 @@ $white-color: #ffffff;
   background-color: #A31F2A;
 }
 
+* {
+  font-family: Roboto Light,  sans-serif;
+}
+
 body {
   background-color: #F7F7F7 !important;
   overflow-x: hidden;
 }
 
+
 #close-tag {
   text-align: right;
+  color: #237da8;
   background-color: #F7F7F7;
-  width: 22rem;
+  width: 21rem;
   margin: auto;
   padding: 18px 0;
+  //font-family: Roboto Light,  sans-serif;
+  font-size: 22px;
 }
 
 // * OUTER CARD *
 .outer-card {
-  width: 23rem;
+  width: 21rem;
   margin: auto;
   border: $border-none;
   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
@@ -42,8 +50,7 @@ body {
     border-bottom: $border-none;
     background-color: #A91B1A !important;
     font-weight: bold;
-    letter-spacing: 1px;
-    width: 23rem;
+    width: 100%;
     margin: auto;
     overflow-x: hidden;
     border-left: 10px solid transparent;
@@ -55,7 +62,7 @@ body {
       animation-timing-function: linear;
       animation-iteration-count: infinite;
       font-family: 'Arial', "Times New Roman";
-      letter-spacing: 2px;
+      letter-spacing: 1px;
       font-size: 15px;
     }
   }
@@ -83,7 +90,6 @@ body {
       @include time(18%, 50%);
       transform: translate(-50%, -50%);
       text-align: center;
-      //width: 100%;
       animation: movingClock 5s infinite;
       animation-direction: alternate-reverse;
     }
@@ -171,12 +177,12 @@ body {
 
 @keyframes movingClock {
   0% {
-    left: 28%;
+    left: 32%;
   }
   50% {
-    left: 72%;
+    left: 68%;
   }
   100% {
-    left: 28%;
+    left: 32%;
   }
 }
