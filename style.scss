@@ -80,7 +80,7 @@ body {
     }
 
     #time {
-      @include time(23%, 50%);
+      @include time(18%, 50%);
       transform: translate(-50%, -50%);
       text-align: center;
       //width: 100%;
