@@ -87,7 +87,7 @@ body {
     }
 
     #time {
-      @include time(18%, 50%);
+      @include time(10%, 50%);
       transform: translate(-50%, -50%);
       text-align: center;
       animation: movingClock 5s infinite;
@@ -125,6 +125,13 @@ body {
         color: $white-color;
         height: 50px;
         font-weight: 500;
+      }
+
+      p {
+        margin-top: 20px;
+        font-weight: bold;
+        color: #6A6A6A;
+        letter-spacing: 2px;
       }
     }
   }
@@ -185,4 +192,11 @@ body {
   100% {
     left: 32%;
   }
+}
+
+/* QR CODE  */
+
+#canvas {
+  width: 180px !important;
+  height: 180px !important;
 }

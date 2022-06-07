@@ -64,7 +64,7 @@ body {
   font-weight: bold;
   font-size: 2rem;
   position: absolute;
-  top: 18%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -98,6 +98,12 @@ body {
   color: #ffffff;
   height: 50px;
   font-weight: 500;
+}
+.outer-card .card-body .text-center p {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #6A6A6A;
+  letter-spacing: 2px;
 }
 
 #left-border {
@@ -157,6 +163,11 @@ body {
   100% {
     left: 32%;
   }
+}
+/* QR CODE  */
+#canvas {
+  width: 180px !important;
+  height: 180px !important;
 }
 
 /*# sourceMappingURL=style.css.map */
