@@ -18,7 +18,7 @@ $white-color: #ffffff;
 }
 
 * {
-  font-family: Roboto Light,  sans-serif;
+  font-family: Roboto Light, sans-serif;
 }
 
 body {
@@ -116,6 +116,7 @@ body {
         width: 80%;
       }
     }
+
     .text-center {
       padding: 1rem;
       margin-top: -6%;
@@ -141,6 +142,15 @@ body {
 }
 
 /* CARD FOOTER */
+
+hr {
+
+  -webkit-mask-size: 300px 200px;
+  -webkit-mask-image: -webkit-gradient(linear, center top, center bottom,
+          color-stop(0.00, rgba(0, 0, 0, 0)),
+          color-stop(1.00, rgba(0, 0, 0, 1)));
+}
+
 footer {
   position: fixed;
   height: 73px;
@@ -150,6 +160,7 @@ footer {
   margin-bottom: 0px;
   width: 96%;
   margin: auto;
+
 }
 
 #left-border {

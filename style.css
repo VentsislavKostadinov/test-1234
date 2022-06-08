@@ -109,6 +109,11 @@ body {
 }
 
 /* CARD FOOTER */
+hr {
+  -webkit-mask-size: 300px 200px;
+  -webkit-mask-image: -webkit-gradient(linear, center top, center bottom, color-stop(0, rgba(0, 0, 0, 0)), color-stop(1, black));
+}
+
 footer {
   position: fixed;
   height: 73px;
