@@ -137,20 +137,19 @@ body {
       }
     }
 
-    /* CARD FOOTER */
-    .card-footer {
-      padding: 0 !important;
-      border-top: none;
-
-
-      img {
-        position: fixed;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-      }
-    }
   }
+}
+
+/* CARD FOOTER */
+.card-footer {
+  padding: 0 !important;
+  border-top: none;
+  position: fixed;
+  width: 87%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  left: 6%;
 }
 
 #left-border {

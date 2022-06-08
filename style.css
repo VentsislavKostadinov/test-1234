@@ -79,7 +79,6 @@ body {
 .outer-card .card-body {
   padding: 0;
   /* Images */
-  /* CARD FOOTER */
 }
 .outer-card .card-body .card-body-elements {
   display: flex;
@@ -108,15 +107,17 @@ body {
   color: #6A6A6A;
   letter-spacing: 2px;
 }
-.outer-card .card-body .card-footer {
+
+/* CARD FOOTER */
+.card-footer {
   padding: 0 !important;
   border-top: none;
-}
-.outer-card .card-body .card-footer img {
   position: fixed;
-  width: 100%;
+  width: 87%;
   display: flex;
   justify-content: center;
+  text-align: center;
+  left: 6%;
 }
 
 #left-border {
