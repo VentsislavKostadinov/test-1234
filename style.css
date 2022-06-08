@@ -87,7 +87,7 @@ body {
   margin-top: -5%;
 }
 .outer-card .card-body .card-body-elements .card-img-top {
-  width: 80%;
+  width: 86%;
 }
 .outer-card .card-body .text-center {
   padding: 1rem;
@@ -99,8 +99,9 @@ body {
   background-color: #0C7FAC;
   border: 1px solid #0C7FAC;
   color: #ffffff;
-  height: 50px;
+  height: 60px;
   font-weight: 500;
+  font-size: 22px;
 }
 .outer-card .card-body .text-center p {
   margin-top: 20px;
@@ -124,14 +125,14 @@ footer {
 }
 
 #left-border {
-  width: 10%;
+  width: 7%;
   margin-top: -2%;
   background-color: #A31F2A;
   border-bottom-left-radius: 10px;
 }
 
 #right-border {
-  width: 10%;
+  width: 7%;
   margin-top: -2%;
   background-color: #A31F2A;
   border-bottom-right-radius: 10px;
