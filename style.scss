@@ -35,7 +35,7 @@ body {
   margin: auto;
   padding: 18px 0;
   //font-family: Roboto Light,  sans-serif;
-  font-size: 22px;
+  font-size: 19px;
 }
 
 // * OUTER CARD *
@@ -143,14 +143,6 @@ body {
 
 /* CARD FOOTER */
 
-hr {
-
-  -webkit-mask-size: 300px 200px;
-  -webkit-mask-image: -webkit-gradient(linear, center top, center bottom,
-          color-stop(0.00, rgba(0, 0, 0, 0)),
-          color-stop(1.00, rgba(0, 0, 0, 1)));
-}
-
 footer {
   position: fixed;
   height: 73px;
@@ -160,6 +152,11 @@ footer {
   margin-bottom: 0px;
   width: 96%;
   margin: auto;
+
+  -webkit-mask-size: 5px;
+  -webkit-mask-image: -webkit-gradient(linear, center top, center bottom,
+          color-stop(0.00,  rgba(0,0,0,0)),
+          color-stop(0.20,  rgba(0,0,0,1)));
 
 }
 

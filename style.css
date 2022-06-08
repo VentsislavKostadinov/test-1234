@@ -14,7 +14,7 @@ body {
   width: 21rem;
   margin: auto;
   padding: 18px 0;
-  font-size: 22px;
+  font-size: 19px;
 }
 
 .outer-card {
@@ -109,11 +109,6 @@ body {
 }
 
 /* CARD FOOTER */
-hr {
-  -webkit-mask-size: 300px 200px;
-  -webkit-mask-image: -webkit-gradient(linear, center top, center bottom, color-stop(0, rgba(0, 0, 0, 0)), color-stop(1, black));
-}
-
 footer {
   position: fixed;
   height: 73px;
@@ -123,6 +118,8 @@ footer {
   margin-bottom: 0px;
   width: 96%;
   margin: auto;
+  -webkit-mask-size: 5px;
+  -webkit-mask-image: -webkit-gradient(linear, center top, center bottom, color-stop(0, rgba(0, 0, 0, 0)), color-stop(0.2, black));
 }
 
 #left-border {
