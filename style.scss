@@ -29,7 +29,7 @@ body {
 
 #close-tag {
   text-align: right;
-  color: #237da8;
+  color: #000000;
   background-color: #F7F7F7;
   width: 21rem;
   margin: auto;
@@ -136,6 +136,20 @@ body {
         letter-spacing: 2px;
       }
     }
+
+    /* CARD FOOTER */
+    .card-footer {
+      padding: 0 !important;
+      border-top: none;
+
+
+      img {
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+    }
   }
 }
 
@@ -196,9 +210,9 @@ body {
   }
 }
 
-/* QR CODE  */
+/* QR CODE CANVAS  */
 
 #canvas {
-  width: 180px !important;
-  height: 180px !important;
+  width: 120px !important;
+  height: 120px !important;
 }

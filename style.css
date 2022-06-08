@@ -9,7 +9,7 @@ body {
 
 #close-tag {
   text-align: right;
-  color: #237da8;
+  color: #000000;
   background-color: #F7F7F7;
   width: 21rem;
   margin: auto;
@@ -79,6 +79,7 @@ body {
 .outer-card .card-body {
   padding: 0;
   /* Images */
+  /* CARD FOOTER */
 }
 .outer-card .card-body .card-body-elements {
   display: flex;
@@ -106,6 +107,16 @@ body {
   font-weight: bold;
   color: #6A6A6A;
   letter-spacing: 2px;
+}
+.outer-card .card-body .card-footer {
+  padding: 0 !important;
+  border-top: none;
+}
+.outer-card .card-body .card-footer img {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 #left-border {
@@ -166,10 +177,10 @@ body {
     left: 32%;
   }
 }
-/* QR CODE  */
+/* QR CODE CANVAS  */
 #canvas {
-  width: 180px !important;
-  height: 180px !important;
+  width: 120px !important;
+  height: 120px !important;
 }
 
 /*# sourceMappingURL=style.css.map */

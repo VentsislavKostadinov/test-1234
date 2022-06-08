@@ -26,56 +26,76 @@
                 <div id="clock"></div>
                 <div id="date"></div>
             </div>
-            <div class="card-body">
+            <div>
                 <div class="card-body-elements">
                     <div class="image" id="left-border"></div>
-                    <img  class="card-img-top image" src="assets/wm.jpg"/>
+                    <img class="card-img-top image" src="assets/wm.jpg"/>
                     <div class="image" id="right-border"></div>
                 </div>
                 <div class="text-center">
-                  <button type="button"><i class="fa-solid fa-arrow-up-right-from-square"></i>
-                      NX Rewards Cashback</button>
+                    <button type="button"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        NX Rewards Cashback
+                    </button>
                     <p>
                         Unlimited travel on all National Express West Midlands and National express Coventry
                         buses anywhere within the West Midlands zone.
                     </p>
                     <!-- QR CODE -->
                     <div id="menu" style="display: none">
-                        <table border=0 cellpading=0 cellspacing=0><tr>
-                            <td>
-                                <table border=0 cellpading=0 cellspacing=0>
-                                    <tr><th>Bar Code:<td><select id="symbol" style="width:64ex"></select>
-                                    <tr><th>Bar Text:<td><input id="symtext" type="text" style="width:63ex">
-                                    <tr><th>Alt Text:<td><input id="symaltx" type="text" style="width:63ex">
-                                    <tr><th>Options:<td><input id="symopts" type="text" style="width:63ex">
-                                </table>
-                            <td style="padding-left:10mm">
-                                <table border=0 cellpading=0 cellspacing=0>
-                                    <tr><th>Scale:<td><input type="text" id="scale" value=2>
-                                        <span class="button up"></span>
-                                        <span class="button dn"></span>
-                                    <tr><th>Rotate:<td>
-                                        <label for="rotN"><input type="radio" name="rot" value="N" id="rotN" checked>Normal</label>
-                                        <label for="rotR"><input type="radio" name="rot" value="R" id="rotR">90 CW</label>
-                                        <label for="rotL"><input type="radio" name="rot" value="L" id="rotL">90 CCW</label>
-                                        <label for="rotI"><input type="radio" name="rot" value="I" id="rotI">180</label>
-                                    <tr><td><br>
-                                </table>
-                            <tr><td><br>
+                        <table border=0 cellpading=0 cellspacing=0>
+                            <tr>
+                                <td>
+                                    <table border=0 cellpading=0 cellspacing=0>
+                                        <tr>
+                                            <th>Bar Code:
+                                            <td><select id="symbol" style="width:64ex"></select>
+                                        <tr>
+                                            <th>Bar Text:
+                                            <td><input id="symtext" type="text" style="width:63ex">
+                                        <tr>
+                                            <th>Alt Text:
+                                            <td><input id="symaltx" type="text" style="width:63ex">
+                                        <tr>
+                                            <th>Options:
+                                            <td><input id="symopts" type="text" style="width:63ex">
+                                    </table>
+                                <td style="padding-left:10mm">
+                                    <table border=0 cellpading=0 cellspacing=0>
+                                        <tr>
+                                            <th>Scale:
+                                            <td><input type="text" id="scale" value=2>
+                                                <span class="button up"></span>
+                                                <span class="button dn"></span>
+                                        <tr>
+                                            <th>Rotate:
+                                            <td>
+                                                <label for="rotN"><input type="radio" name="rot" value="N" id="rotN"
+                                                                         checked>Normal</label>
+                                                <label for="rotR"><input type="radio" name="rot" value="R" id="rotR">90
+                                                    CW</label>
+                                                <label for="rotL"><input type="radio" name="rot" value="L" id="rotL">90
+                                                    CCW</label>
+                                                <label for="rotI"><input type="radio" name="rot" value="I" id="rotI">180</label>
+                                        <tr>
+                                            <td><br>
+                                    </table>
+                            <tr>
+                                <td><br>
                         </table>
                     </div>
-
                     <canvas id="canvas" width=200 height=200 style="border:1px solid #fff;visibility:hidden"></canvas>
-                    <div id="output" style="white-space:pre"></div>
-                    <xmp id="debug" style="white-space:pre"></xmp>
                 </div>
             </div>
         </div>
+        <footer class="card-footer">
+            <img class="card-img-bottom" src="assets/footer.jpg" alt=""/>
+        </footer>
     </div>
 </div>
 
 <script>
     let clock = document.getElementById('clock');
+
     function time() {
         let d = new Date();
         let s = d.getSeconds();
@@ -84,6 +104,7 @@
         clock.textContent =
             ("0" + h).substr(-2) + ":" + ("0" + m).substr(-2) + ":" + ("0" + s).substr(-2);
     }
+
     setInterval(time, 1000);
     let date = document.getElementById("date");
     let dt = new Date();
@@ -93,7 +114,7 @@
     console.log(day + '/' + month + '/' + year);
     date.textContent = day + '/' + month + '/' + year;
 </script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="qr-code.js"></script>
 </body>
 </html>
