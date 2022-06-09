@@ -87,7 +87,7 @@ body {
     }
 
     #time {
-      @include time(10%, 50%);
+      @include time(8%, 50%);
       transform: translate(-50%, -50%);
       text-align: center;
       animation: movingClock 5s infinite;
