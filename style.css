@@ -124,7 +124,7 @@ body {
   width: 70%;
   margin-top: -3%;
   -webkit-mask-size: 5px;
-  -webkit-mask-image: -webkit-gradient(linear, center bottom, center top, color-stop(0, rgba(0, 0, 0, 0)), color-stop(0.3, black));
+  -webkit-mask-image: -webkit-gradient(linear, center bottom, center top, color-stop(0, rgba(0, 0, 0, 0)), color-stop(0.7, black));
 }
 
 /* CARD FOOTER */
