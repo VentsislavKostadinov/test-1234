@@ -138,19 +138,11 @@ body {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
   border: none !important;
 }
-.footer-card hr {
-  margin: 0;
-  border-top: none !important;
-  opacity: 0.5;
-  -webkit-mask-size: 5px;
-  -webkit-mask-image: -webkit-gradient(linear, center top, center bottom, color-stop(0, rgba(0, 0, 0, 0)), color-stop(0.2, black));
-}
-.footer-card hr:after {
-  content: "...................................";
-  letter-spacing: 6px;
-  width: 23rem;
-}
 .footer-card .card-body {
+  background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
+  background-position: top;
+  background-size: 10px 1px;
+  background-repeat: repeat-x;
   color: #0379A6;
   display: flex;
   justify-content: space-between;
