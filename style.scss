@@ -154,7 +154,14 @@ body {
       .card-img-bottom {
         width: 70%;
         margin-top: -3%;
+
+        -webkit-mask-size: 5px;
+        -webkit-mask-image: -webkit-gradient(linear, center bottom, center top,
+                color-stop(0.00,  rgba(0,0,0,0)),
+                color-stop(.3,  rgba(0,0,0,1)));
       }
+
+
     }
 
   }
@@ -174,8 +181,9 @@ body {
   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
   //border-top: 1px dotted black !important;
   border: none !important;
-  .card-body {
 
+
+  .card-body {
     background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
     background-position: top;
     background-size: 10px 1px;

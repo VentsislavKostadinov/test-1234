@@ -123,6 +123,8 @@ body {
 .outer-card .card-body .text-center .card-img-bottom {
   width: 70%;
   margin-top: -3%;
+  -webkit-mask-size: 5px;
+  -webkit-mask-image: -webkit-gradient(linear, center bottom, center top, color-stop(0, rgba(0, 0, 0, 0)), color-stop(0.3, black));
 }
 
 /* CARD FOOTER */
