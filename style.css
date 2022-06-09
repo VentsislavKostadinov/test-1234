@@ -93,8 +93,20 @@ body {
   margin-top: -6%;
   margin-bottom: 20%;
 }
+.outer-card .card-body .text-center .fa-arrow-up-right-from-square {
+  width: 16%;
+  height: 60px;
+  font-size: 15px;
+  padding-top: 20px;
+  background-color: #0C7FAC;
+  border: 1px solid #0C7FAC;
+  color: #ffffff;
+}
+.outer-card .card-body .text-center #nx {
+  width: 85%;
+  text-align: left;
+}
 .outer-card .card-body .text-center button {
-  width: 100%;
   background-color: #0C7FAC;
   border: 1px solid #0C7FAC;
   color: #ffffff;
@@ -108,19 +120,41 @@ body {
   color: #6A6A6A;
   letter-spacing: 2px;
 }
+.outer-card .card-body .text-center .card-img-bottom {
+  width: 70%;
+  margin-top: -3%;
+}
 
 /* CARD FOOTER */
-footer {
-  position: fixed;
+.footer-card {
+  position: fixed !important;
   height: 73px;
   bottom: 0px;
   left: 0px;
   right: 0px;
   margin-bottom: 0px;
-  width: 95%;
+  width: 23rem;
   margin: auto;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  border: none !important;
+}
+.footer-card hr {
+  margin: 0;
+  border-top: none !important;
+  opacity: 0.5;
   -webkit-mask-size: 5px;
   -webkit-mask-image: -webkit-gradient(linear, center top, center bottom, color-stop(0, rgba(0, 0, 0, 0)), color-stop(0.2, black));
+}
+.footer-card hr:after {
+  content: "...................................";
+  letter-spacing: 6px;
+  width: 23rem;
+}
+.footer-card .card-body {
+  color: #0379A6;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
 }
 
 #left-border {

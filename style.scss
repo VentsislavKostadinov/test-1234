@@ -120,8 +120,22 @@ body {
       margin-top: -6%;
       margin-bottom: 20%;
 
+      .fa-arrow-up-right-from-square {
+        width: 16%;
+        height: 60px;
+        font-size: 15px;
+        padding-top: 20px;
+        background-color: #0C7FAC;
+        border: 1px solid #0C7FAC;
+        color: $white-color;
+      }
+
+      #nx {
+        width: 85%;
+        text-align: left;
+      }
+
       button {
-        width: 100%;
         background-color: #0C7FAC;
         border: 1px solid #0C7FAC;
         color: $white-color;
@@ -136,6 +150,11 @@ body {
         color: #6A6A6A;
         letter-spacing: 2px;
       }
+
+      .card-img-bottom {
+        width: 70%;
+        margin-top: -3%;
+      }
     }
 
   }
@@ -143,21 +162,45 @@ body {
 
 /* CARD FOOTER */
 
-footer {
-  position: fixed;
+.footer-card {
+  position: fixed !important;
   height: 73px;
   bottom: 0px;
   left: 0px;
   right: 0px;
   margin-bottom: 0px;
-  width: 95%;
+  width: 23rem;
   margin: auto;
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+  //border-top: 1px dotted black !important;
+  border: none !important;
 
-  -webkit-mask-size: 5px;
-  -webkit-mask-image: -webkit-gradient(linear, center top, center bottom,
-          color-stop(0.00, rgba(0, 0, 0, 0)),
-          color-stop(0.20, rgba(0, 0, 0, 1)));
+  hr {
 
+    margin: 0;
+    border-top: none !important;
+    opacity: .5;
+    -webkit-mask-size: 5px;
+    -webkit-mask-image: -webkit-gradient(linear, center top, center bottom,
+            color-stop(0.00, rgba(0, 0, 0, 0)),
+            color-stop(0.20, rgba(0, 0, 0, 1)));
+
+
+    //border-bottom: 2px dotted black;
+   // letter-spacing: 6px;
+    &:after {
+      content:"...................................";
+      letter-spacing: 6px;
+      width: 23rem;
+    }
+  }
+
+  .card-body {
+    color: #0379A6;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+  }
 }
 
 #left-border {
