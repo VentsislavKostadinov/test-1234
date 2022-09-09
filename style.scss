@@ -39,7 +39,7 @@ body {
 
 // * OUTER CARD *
 .outer-card {
-  width: 23rem;
+  width: 21rem;
   margin: auto;
   border: $border-none;
   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
@@ -54,6 +54,9 @@ body {
     overflow-x: hidden;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
+    position: sticky;
+    top: 2px;
+    z-index: 1;
 
     .header-text {
       animation-name: rightToLeft;
@@ -108,7 +111,7 @@ body {
       display: flex;
       flex-direction: row;
       padding: 1rem;
-      margin-top: -5%;
+      margin-top: -6%;
 
       .card-img-top {
         width: 86%;
@@ -141,7 +144,7 @@ body {
         color: $white-color;
         height: 60px;
         font-weight: 500;
-        font-size: 22px;
+        font-size: 20px;
       }
 
       p {
@@ -174,7 +177,7 @@ body {
   left: 0px;
   right: 0px;
   margin-bottom: 0px;
-  width: 23rem;
+  width: 21rem;
   margin: auto;
   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
   //border-top: 1px dotted black !important;

@@ -18,7 +18,7 @@ body {
 }
 
 .outer-card {
-  width: 23rem;
+  width: 21rem;
   margin: auto;
   border: none !important;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
@@ -33,6 +33,9 @@ body {
   overflow-x: hidden;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
+  position: sticky;
+  top: 2px;
+  z-index: 1;
 }
 .outer-card .outer-card-header .header-text {
   animation-name: rightToLeft;
@@ -83,7 +86,7 @@ body {
   display: flex;
   flex-direction: row;
   padding: 1rem;
-  margin-top: -5%;
+  margin-top: -6%;
 }
 .outer-card .card-body .card-body-elements .card-img-top {
   width: 86%;
@@ -112,7 +115,7 @@ body {
   color: #ffffff;
   height: 60px;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 20px;
 }
 .outer-card .card-body .text-center p {
   margin-top: 20px;
@@ -135,7 +138,7 @@ body {
   left: 0px;
   right: 0px;
   margin-bottom: 0px;
-  width: 23rem;
+  width: 21rem;
   margin: auto;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
   border: none !important;
