@@ -43,10 +43,10 @@ body {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   font-family: "Arial", "Times New Roman";
-  letter-spacing: 1px;
-  font-size: 17px;
+  letter-spacing: 2px;
+  font-size: 19px;
   width: 452px;
-  height: 21px;
+  height: 25px;
 }
 .outer-card .inner-card {
   margin: auto;
