@@ -60,13 +60,14 @@ body {
 
     .header-text {
       animation-name: rightToLeft;
-      animation-duration: 10s;
+      animation-duration: 20s;
       animation-timing-function: linear;
       animation-iteration-count: infinite;
       font-family: 'Arial', "Times New Roman";
       letter-spacing: 1px;
       font-size: 15px;
-      width: 405px;
+      width: 452px;
+      height: 21px;
     }
   }
 
@@ -182,7 +183,6 @@ body {
   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
   //border-top: 1px dotted black !important;
   border: none !important;
-
 
   .card-body {
     background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);

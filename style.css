@@ -39,13 +39,14 @@ body {
 }
 .outer-card .outer-card-header .header-text {
   animation-name: rightToLeft;
-  animation-duration: 10s;
+  animation-duration: 20s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   font-family: "Arial", "Times New Roman";
   letter-spacing: 1px;
   font-size: 15px;
-  width: 405px;
+  width: 452px;
+  height: 21px;
 }
 .outer-card .inner-card {
   margin: auto;
