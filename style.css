@@ -44,9 +44,10 @@ body {
   animation-iteration-count: infinite;
   font-family: "Arial", "Times New Roman";
   letter-spacing: 2px;
-  font-size: 19px;
+  font-size: 21px;
   width: 452px;
   height: 25px;
+  margin-bottom: 4px;
 }
 .outer-card .inner-card {
   margin: auto;
